@@ -1,1 +1,11 @@
-<p>home-page works!</p>
+<!-- cars -->
+<div class="container-fluid" *ngFor="let car of cars">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">{{car.maker}} {{car.type}} </h5>
+            <p class="card-text">Price: {{car.price}} € </p>
+            <p class="card-text">Kilometer: {{car.kmCount}} </p>
+
+        </div>
+    </div>
+</div>
