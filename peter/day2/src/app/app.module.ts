@@ -7,6 +7,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ChallengeFormComponent } from './challenge-form/challenge-form.component';
+import { HeroComponent } from './hero/hero.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ChallengeFormComponent } from './challenge-form/challenge-form.componen
     HomePageComponent,
     NavbarComponent,
     ContactUsComponent,
-    ChallengeFormComponent
+    ChallengeFormComponent,
+    HeroComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
