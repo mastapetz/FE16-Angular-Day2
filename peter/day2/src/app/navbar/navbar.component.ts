@@ -9,6 +9,8 @@ export class NavbarComponent implements OnInit {
   title: string ="Car Rental"
   lableBtn: string ="Donate 10 €"
   clickCounter :number = 0;
+  contact: string ="Contact Us";
+  challenge: string ="Challenge";
   constructor() { }
   countClick(){
 

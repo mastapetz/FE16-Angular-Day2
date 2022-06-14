@@ -1,1 +1,25 @@
-<p>contact-us works!</p>
+<div class="container ">
+
+    <form [formGroup]="contactInfo" (ngSubmit)="onSubmit()" class="d-flex flex-column">
+        <label>
+            First Name :
+            <input type="text" formControlName="firstName">
+        </label>
+        <label>
+            Last Name :
+            <input type="text" formControlName="lastName">
+        </label>
+        <label>
+            Your Text :
+            <input type="text" formControlName="textField">
+        </label>
+        <label>
+            Email :
+            <input type="text" formControlName="email">
+        </label>
+        <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+
+
+
+</div>
