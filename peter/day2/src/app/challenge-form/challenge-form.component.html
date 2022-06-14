@@ -1,1 +1,21 @@
-<p>challenge-form works!</p>
+<div class="container ">
+    <form [formGroup]="newCar" (ngSubmit)="onSubmit()" class="d-flex flex-column">
+        <label>
+            Maker :
+            <input type="text" formControlName="maker">
+        </label>
+        <label>
+            Type :
+            <input type="text" formControlName="type">
+        </label>
+        <label>
+            Price :
+            <input type="text" formControlName="price">
+        </label>
+        <label>
+            km Count :
+            <input type="text" formControlName="kmCount">
+        </label>
+        <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+</div>
